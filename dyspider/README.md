@@ -9,7 +9,7 @@
 
 ### 1.用户主页视频爬取
 
-<img style="width:40%;" src="https://ericamblog.oss-cn-shanghai.aliyuncs.com/2020/QQ%E5%9B%BE%E7%89%8720210309235217.png">
+<img style="width:40vw;" src="https://ericamblog.oss-cn-shanghai.aliyuncs.com/2020/QQ%E5%9B%BE%E7%89%8720210309235217.png">
 
 **简介**
 
