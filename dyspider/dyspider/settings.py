@@ -1,4 +1,4 @@
-# Scrapy settings for ygzw project
+# Scrapy settings for dyspider project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,19 +7,19 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'ygzw'
+BOT_NAME = 'dyspider'
 
-SPIDER_MODULES = ['ygzw.spiders']
-NEWSPIDER_MODULE = 'ygzw.spiders'
+SPIDER_MODULES = ['dyspider.spiders']
+NEWSPIDER_MODULE = 'dyspider.spiders'
 
+LOG_LEVEL = 'WARNING'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'ygzw (+http://www.yourdomain.com)'
+#USER_AGENT = 'dyspider (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
-LOG_LEVEL = "WARNING"
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
@@ -46,13 +46,13 @@ LOG_LEVEL = "WARNING"
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'ygzw.middlewares.YgzwSpiderMiddleware': 543,
+#    'dyspider.middlewares.DyspiderSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'ygzw.middlewares.YgzwDownloaderMiddleware': 543,
+#    'dyspider.middlewares.DyspiderDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -64,7 +64,7 @@ LOG_LEVEL = "WARNING"
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'ygzw.pipelines.YgzwPipeline': 300,
+   'dyspider.pipelines.DyspiderPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
